@@ -7,7 +7,7 @@ function Rechercher()
 
     var ref = document.getElementById("ref");
     var refUrl = ref.replace(" ", "+");
-    document.write("refUrl");
+    console.log(refUrl);
     
 
 

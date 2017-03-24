@@ -10,22 +10,53 @@
 <div class="start">
 <h1>Comparator</h1>
 <form class="form">
-Please enter your reference : <br>
-<select>
-	<option>Pc</option>
-	<option></option>
+Please enter your characteristique : <br>
+<select id="platform">
+	<option>Portable</option>
+	<option>desktop</option>
 </select>
-<input type="text" name="ref">
-<input class="button" type ="submit" name="Go" value ="Go !" onclick="Rechercher()">
+<select name="ram" placeholder="ram" id ="ram">
+	<option>2 Go</option>
+	<option>4 Go</option>
+	<option>6 Go</option>
+	<option>8 Go</option>
+	<option>16 Go</option>
+</select>
+
+<select name="processor" placeholder="processor" id="processor">
+	<option>i3</option>
+	<option>i5</option>
+	<option>i7</option>
+</select> 
+<select name="screenSize" placeholder="Screen Size" id="screenSize">
+	<option>11</option>
+	<option>13</option>
+	<option>14</option>
+	<option>15</option>
+	<option>17</option>
+
+</select> 
+
+<select name="Hard drive" placeholder="Hard drive" id="hardDrive">
+	<option>128 Go</option>
+	<option>256 Go</option>
+	<option>500 Go</option>
+	<option>1 To</option>
+</select>
+
+<select  name="SSD" placeholder="ssd" id="SSD">
+	<option>128 Go</option>
+	<option>256 Go</option>
+	<option>500 Go</option>
+	<option>1 To</option>
+</select> 
+
+		<input class="button" type ="submit" name="Go" value ="Go !" onclick="Rechercher()">
 </form>
 </div>
-<div class="result">
-<p class="TitleResult">Nom du produit : </p>
-<table>
-<tr>
-	<th></th>
-</tr>
-</table>
-</div>
+	<div class="result">
+		<p class="TitleResult">Nom du produit : </p>
+
+	</div>
 </body>
 </html>
